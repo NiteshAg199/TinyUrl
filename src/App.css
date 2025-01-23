@@ -1,0 +1,64 @@
+.heading{
+    text-align: center;
+    background-color: rgba(11, 54, 208, 0.86);
+    color: white;
+    font-size:10vh;
+    font-weight:bolder;
+    padding: 1vh;
+  }
+.formContainer{
+  display: flexbox;
+  justify-items: center;
+  align-content: center;
+  margin-top:10vh;
+  font-size: 6vh;
+}
+.lblField{
+  font-weight:bolder;
+  margin-right: 5px;
+}
+.inputUrl{
+  width: 50vw;
+}
+.frmBtnContainer{
+  margin-top: 5vh;
+}
+.generateBtn{
+  cursor: pointer;
+  width: 15vw;
+  color: white;
+  background-color: rgba(11, 54, 208, 0.86);
+  font-size:3vh;
+  font-weight:600;
+    padding: 1vh;
+}
+#enteredUrl{
+  /* border: none; */
+  /* border: 3px solid #f6f3f3; */
+  height:6vh;
+  background-color: rgb(234, 235, 235);
+  border: 1px solid rgba(230, 225, 225, 0.5); 
+  font-size: 6vh;
+
+}
+input[type=text]:focus {
+  border: 1px solid rgba(230, 225, 225, 0.5); 
+}
+.generatedResult{
+  /* display: ; */
+  margin-top: 5vh;
+  height: 10vh;
+  width: 25vw;
+  align-content: center;
+  color: blue;
+  font-size: 2vh;
+  font-weight:800;
+}
+.generatedResultContainer{
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.shortenUrlBtnsContainer{
+  margin-top: 5vh;
+}
